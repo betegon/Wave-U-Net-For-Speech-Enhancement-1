@@ -65,6 +65,15 @@ The training dataset should then be prepared for being parsed as an XML file (no
 ## Training
 Training can be executed by running the command `python Training.py`, modyfing the parameters in <b>Config.py</b> as desired.
 
+**_<u>NOTE</u>_** I think you need to specify `.xml` file in `Training.py`, in line:
+```python
+dataset_train = Datasets.getAudioData("")
+```
+So it could be something like this, if the xml  file is called `data.xml` and it is placed in the repo root directory:
+```python
+dataset_train = Datasets.getAudioData("data.xml")
+
+
 ### Visualize training and validation loss from
 
 ## Testing
@@ -75,6 +84,10 @@ Speech source estimates should then be evaluated against the clean speech file t
 Audio examples of both speech and background noise estimates of the VCTK test set, alongside the noisy test files and clean speech for reference, are available for download in the <b>audio_examples</b> directory.
 
 <br>
+
+## REPOS used
+[1] https://github.com/MathewSam/Wave-U-Net-For-Speech-Enhancement-1
+[2] https://github.com/jonasyang/Wave-U-Net-For-Speech-Enhancement
 
 ## References
 [1] Craig Macartney and Tillman Weyde. Improved Speech Enhancement with the Wave-U-Net. 2018. URL http://arxiv.org/abs/1811.11307

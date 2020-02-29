@@ -3,6 +3,7 @@ from sacred import Ingredient
 
 config_ingredient = Ingredient("cfg")
 
+
 @config_ingredient.config
 def cfg():
     # Base configuration
@@ -36,6 +37,7 @@ def cfg():
 
     model_config["num_sources"] = 2
     model_config["num_channels"] = 1 if model_config["mono_downmix"] else 2
+
 
 @config_ingredient.named_config
 def baseline():
