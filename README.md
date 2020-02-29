@@ -43,7 +43,7 @@ Example of usage:
 python build_train_set.py \
 --clean_source datasets/VCTK/clean_trainset_28spk_wav \
 --noisy_source datasets/VCTK/noisy_trainset_28spk_wav \
---out_directory datasets/VCTK/progress_testing
+--out_directory datasets/VCTK/progress_testing \
 --sampling_rate 32000 # The best parameter for training I think (betegon) it is 16000Hz.
 ```
 
