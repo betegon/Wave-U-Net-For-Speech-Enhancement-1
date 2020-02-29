@@ -32,7 +32,12 @@ Train and test datasets provided by the 28-speaker [Voice Bank Corpus (VCTK)](ht
 
 Download trained weights here: https://www.dropbox.com/s/2ytshnr5iavax2q/728467-2001.data-00000-of-00001?dl=0
 
+
 Put downloaded trained weights into `./checkpoints`.
+
+Also, as [3] says, _Checkpoint v2 saves the checkpoint as 3 files (`*.data-00000-of-00001`, `*.index`, `*.meta`). So when restoring the checkpoint **remove the extension** `*.data-00000-of-00001` and just use the filename `*.ckpt`._
+
+
 
 
 ### build_train_set.py
@@ -88,7 +93,7 @@ Audio examples of both speech and background noise estimates of the VCTK test se
 ## REPOS used
 [1] https://github.com/MathewSam/Wave-U-Net-For-Speech-Enhancement-1
 [2] https://github.com/jonasyang/Wave-U-Net-For-Speech-Enhancement
-
+[3] https://orvillemcdonald.com/2018/02/13/restoring-tensorflow-models/
 ## References
 [1] Craig Macartney and Tillman Weyde. Improved Speech Enhancement with the Wave-U-Net. 2018. URL http://arxiv.org/abs/1811.11307
 
