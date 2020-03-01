@@ -103,6 +103,10 @@ You should specify the model path as follows in `inference.py`:
 ```Python
 produce_source_estimates(model_config, 'checkpoints/trained_model_from_github/model-10000', '512.wav', output_path='.')
 ```
+### Inference example
+```bash
+python inference.py --noisy_file file_to_denoise.wav
+```
 
 
 ## Testing
