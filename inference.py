@@ -35,4 +35,4 @@ model_config = {"model_base_dir" : "checkpoints", # Base folder for model checkp
 model_config["num_sources"] = 2
 model_config["num_channels"] = 1
 
-Estimate_Sources.produce_source_estimates(model_config, 'checkpoints/728467/model-10000', 'p257_011_noisy.wav', output_path='.')
+Estimate_Sources.produce_source_estimates(model_config, 'checkpoints/728467/model-10000', 'p232_011.wav', output_path='.')
