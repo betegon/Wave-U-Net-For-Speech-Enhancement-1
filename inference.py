@@ -1,9 +1,5 @@
-import Estimate_Sources
-import Config
 
-from sacred import Experiment
-from sacred.observers import FileStorageObserver
-from Config import config_ingredient
+from Estimate_Sources import produce_source_estimates
 
 
 model_config = {"model_base_dir" : "checkpoints", # Base folder for model checkpoints
@@ -35,4 +31,5 @@ model_config = {"model_base_dir" : "checkpoints", # Base folder for model checkp
 model_config["num_sources"] = 2
 model_config["num_channels"] = 1
 
-Estimate_Sources.produce_source_estimates(model_config, 'checkpoints/728467/model-10000', 'p232_011.wav', output_path='.')
+produce_source_estimates(model_config, 'checkpoints/trained_model_from_github/model-10000', '256.wav', output_path='.')
+produce_source_estimates(model_config, 'checkpoints/trained_model_from_github/model-10000', '512.wav', output_path='.')
