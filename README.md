@@ -114,6 +114,9 @@ Audio examples of both speech and background noise estimates of the VCTK test se
 
 
 ## TO-DO
+
+
+* [x] Argparse for `inference.py`.
 * [ ] After using `inference.py` for one or a couple of times, then it stops working, throwing the error:
   > 2020-03-01 22:09:42.646762: W tensorflow/compiler/xla/service/platform_util.cc:256] unable to create StreamExecutor for CUDA:0: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY: out of memory; total memory reported: 2097479680
 
@@ -121,8 +124,6 @@ Audio examples of both speech and background noise estimates of the VCTK test se
 
   > Aborted (core dumped)
 
-
-* [ ] Argparse for `inference.py`.
 * [ ] Upgrade to Tensorflow 2.x.
 * [ ] Train on 28 speakers. https://datashare.is.ed.ac.uk/handle/10283/2791
 * [ ] Train on 56 speakers. https://datashare.is.ed.ac.uk/handle/10283/2791
