@@ -128,6 +128,8 @@ Audio examples of both speech and background noise estimates of the VCTK test se
 
   > Aborted (core dumped)
 
+I thinks the TODO above is resolved by upgrading tensorflow to 1.8. Check this before marking it as done (just run inference some times haha).
+* [ ] Argparse for `Training.py` to specify dataset path (by default it should by in directory `train_data/`)
 * [ ] Upgrade to Tensorflow 2.x.
 * [ ] Train on 28 speakers. https://datashare.is.ed.ac.uk/handle/10283/2791
 * [ ] Train on 56 speakers. https://datashare.is.ed.ac.uk/handle/10283/2791
@@ -140,6 +142,7 @@ Audio examples of both speech and background noise estimates of the VCTK test se
 [2] https://github.com/jonasyang/Wave-U-Net-For-Speech-Enhancement
 
 [3] https://orvillemcdonald.com/2018/02/13/restoring-tensorflow-models/
+
 ## References
 [1] Craig Macartney and Tillman Weyde. Improved Speech Enhancement with the Wave-U-Net. 2018. URL http://arxiv.org/abs/1811.11307
 
