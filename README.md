@@ -134,8 +134,11 @@ Audio examples of both speech and background noise estimates of the VCTK test se
 
 ## REPOS used / issues or commits commented
 [0] https://github.com/jeewenjie/Wave-U-Net-For-Speech-Enhancement/commit/e7e34f6782294e970f375159ded3487c5763e17f#commitcomment-37570464
+
 [1] https://github.com/MathewSam/Wave-U-Net-For-Speech-Enhancement-1
+
 [2] https://github.com/jonasyang/Wave-U-Net-For-Speech-Enhancement
+
 [3] https://orvillemcdonald.com/2018/02/13/restoring-tensorflow-models/
 ## References
 [1] Craig Macartney and Tillman Weyde. Improved Speech Enhancement with the Wave-U-Net. 2018. URL http://arxiv.org/abs/1811.11307
