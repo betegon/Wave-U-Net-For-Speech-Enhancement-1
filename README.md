@@ -143,6 +143,8 @@ I thinks the TODO above is resolved by upgrading tensorflow to 1.8. Check this b
 
 [3] https://orvillemcdonald.com/2018/02/13/restoring-tensorflow-models/
 
+[4] https://github.com/haoxiangsnr/A-Convolutional-Recurrent-Neural-Network-for-Real-Time-Speech-Enhancement/issues/10#issuecomment-589583779 
+
 ## References
 [1] Craig Macartney and Tillman Weyde. Improved Speech Enhancement with the Wave-U-Net. 2018. URL http://arxiv.org/abs/1811.11307
 
